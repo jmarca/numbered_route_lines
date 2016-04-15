@@ -11,7 +11,7 @@ SELECT is(
     (SELECT count(*)
           FROM tempseg.numbered_route_lines
     )::integer,
-    1,
+    444,
     'The data got loaded okay'
 );
 
