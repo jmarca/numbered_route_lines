@@ -7,13 +7,11 @@ from route_relations rr
 join tempseg.revised_route_lines rl on (rr.id = rl.relation_id)
 where rl.direction != 'both';
 
+
 -- now populate a table with numbered route line segments that will be collected later
-drop table if exists tempseg.numbered_route_line_segments ;
-create table tempseg.numbered_route_line_segments (
- refnum    numeric,
- direction  text
-);
-SELECT AddGeometryColumn( 'tempseg','numbered_route_line_segments', 'routeline', 4326, 'LINESTRING', 2);
+
+
+
 
 insert into tempseg.numbered_route_line_segments (refnum,direction,routeline)
   select rr.refnum,rl.direction, (st_dump(routeline)).geom as dump_geom
