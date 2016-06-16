@@ -1,0 +1,22 @@
+{
+  "name": "numbered_route_lines",
+  "version": "1.0.0",
+  "description": "Numbered route lines pre matching up detectors",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "pgtap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarca/numbered_route_lines.git"
+  },
+  "author": "James E. Marca",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jmarca/numbered_route_lines/issues"
+  },
+  "homepage": "https://github.com/jmarca/numbered_route_lines#readme"
+}
