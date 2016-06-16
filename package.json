@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/jmarca/numbered_route_lines/issues"
   },
-  "homepage": "https://github.com/jmarca/numbered_route_lines#readme"
+  "homepage": "https://github.com/jmarca/numbered_route_lines#readme",
+  "dependencies": {
+    "calvad_db_geoextensions": "github:jmarca/calvad_db_geoextensions",
+    "revised_route_lines": "github:jmarca/revised_route_lines",
+    "tempseg_schema": "github:jmarca/tempseg_schema"
+  }
 }
