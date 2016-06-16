@@ -2,6 +2,6 @@
 %project=numbered_route_lines
 %uri=https://github.com/jmarca/numbered_route_lines
 
-nrls [revised_route_lines:tempseg_schema calvad_db_geoextensions:geoextensions] 2016-04-15T00:51:52Z James E. Marca <james@activimetrics.com> # create numbered route line segs table
+nrls [tempseg_schema:tempseg_schema calvad_db_geoextensions:geoextensions] 2016-04-15T00:51:52Z James E. Marca <james@activimetrics.com> # create numbered route line segs table
 populate [nrls revised_route_lines:rsl] 2016-04-15T04:33:37Z James E. Marca <james@activimetrics.com> # populate numbered route line segs table
 nrl [populate] 2016-04-15T04:45:20Z James E. Marca <james@activimetrics.com> # create and populate numbered route lines
